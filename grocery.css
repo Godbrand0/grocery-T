@@ -1,3 +1,7 @@
 *{
     font-family: 'poppins', sans-serif;
 }
+
+#container{
+    background-image: url(images/Image.png);
+}
