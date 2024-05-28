@@ -2,3 +2,9 @@
     font-family: 'poppins', sans-serif;
 }
 
+.translate-x-full {
+    transform: translateX(100%);
+  }
+  .translate-x-0 {
+    transform: translateX(0);
+  }
