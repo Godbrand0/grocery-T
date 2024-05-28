@@ -10,18 +10,34 @@
 </head>
 <body>
     
-    <div class="container min-h-screen bg-center bg-[url('images/Image.png')] bg-cover min-w-full px-7 py-5 relative lg:px-28" id="container">
+    <div class="container min-h-screen bg-center bg-[url('images/Image.png')] bg-cover min-w-full px-7 py-5 relative lg:px-28 overflow-y-hidden	" id="container">
         <nav class="flex items-center justify-between ">
             <img src="images/logo.png" alt="logo" class="w-40 cursor-pointer">
             <ul class="text-center hidden sm:flex">
-                <li class="list-none inline-block px-5 cursor-pointer"><a href="#" class="no-underline text-white px-2">Home</a></li>
-                <li class="list-none inline-block px-5 cursor-pointer md:px-10"><a href="#" class="no-underline text-white px-2">About</a></li>
-                <li class="list-none inline-block px-5 cursor-pointer md:px-10"><a href="#" class="no-underline text-white px-2">Features</a></li>
-                <li class="list-none inline-block px-5 cursor-pointer"><a href="#" class="no-underline text-white px-2">Contact</a></li>
+                <li class="list-none inline-block px-5 "><a href="#" class="no-underline text-white px-2 cursor-pointer ">Home</a></li>
+                <li class="list-none inline-block px-5 md:px-10"><a href="#" class="no-underline text-white px-2 cursor-pointer ">About</a></li>
+                <li class="list-none inline-block px-5 md:px-10"><a href="#" class="no-underline text-white px-2 cursor-pointer ">Features</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2 cursor-pointer ">Contact</a></li>
 
             </ul>
-            <img src="images/cart.png" class="w-8 cursor-pointer ">
+
+            
+            <div class="flex items-center">
+                <img src="images/cart.png" class="w-8 cursor-pointer mx-6">
+                <img src="images/menu-icon-19350.png" class="w-8 cursor-pointer mt-2 sm:hidden">
+            </div>
+            
+
         </nav>
+
+        <ul class="p-2 bg-slate-500	rounded-xl w-40 float-right hidden translate-x-52">
+            <img src="images/remove-icon-png-7115.png" class="w-6 cursor-pointer float-right">
+            <li class="list-none  px-5 border-b-2 mt-2 cursor-pointer hover:bg-slate-200"><a href="#" class="no-underline text-white px-2  text-xl">Home</a></li>
+            <li class="list-none  px-5 border-b-2 mt-2 cursor-pointer hover:bg-slate-200"><a href="#" class="no-underline text-white px-2  text-xl  ">About</a></li>
+            <li class="list-none  px-5 border-b-2 mt-2 cursor-pointer hover:bg-slate-200"><a href="#" class="no-underline text-white px-2  text-xl">Features</a></li>
+            <li class="list-none  px-5  mt-2 cursor-pointer hover:bg-slate-200"><a href="#" class="no-underline text-white px-2  text-xl ">Contact</a></li>
+
+        </ul>
 
 
         <div class="text-white mt-16 lg:mt-48 max-w-xl">
@@ -38,7 +54,7 @@
                 <a href="#">Download App <span class="text-lg inline-block rotate-90">&#10148</span></a>
             </div>
         </div>
-        <img src="images/grocery-image.png" alt="grocery" class="w-full xl:w-1/2 xl:absolute top-1 right-10">
+        <img src="images/grocery-image.png" alt="grocery" class="w-full xl:w-1/2 xl:absolute top-12 right-0">
     </div>
 </body>
 </html>
